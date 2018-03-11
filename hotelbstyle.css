@@ -135,6 +135,27 @@ a:hover {
   display: none;
 }
 
+.table {
+  width:50%;
+  height: 300px;
+  margin: auto;
+  background-color: pink;
+}
+.tablegrid {
+  display: grid;
+  grid-template-columns: 90% 10%;
+  grid-template-rows: 25% 25% 25% 25%;
+  border: 1px solid black;
+}
+.tabledescript {
+  grid-column: 1 / 2;
+  border: 1px solid black;
+}
+.price {
+  grid-column: 2 / span 1;
+  border: 1px solid black;
+}
+
 @media screen and (max-width: 480px) {
   nav {
     display: none;
