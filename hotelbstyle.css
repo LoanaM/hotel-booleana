@@ -137,15 +137,27 @@ a:hover {
 
 .table {
   width:50%;
-  height: 300px;
-  margin: auto;
-  background-color: pink;
+  height: auto;
+  margin: 10px auto;
+  background-color: #ECFAFB;
+}
+.table h1 {
+  text-align: center;
 }
 .tablegrid {
   display: grid;
   grid-template-columns: 90% 10%;
   grid-template-rows: 25% 25% 25% 25%;
   border: 1px solid black;
+}
+.tabletitle  {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 2em;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10px;
+  background-color: #81CBC8;
 }
 .tabledescript {
   grid-column: 1 / 2;
