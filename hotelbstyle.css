@@ -167,6 +167,22 @@ a:hover {
   border: 1px solid black;
 }
 
+.offertblock {
+  position: relative;
+  width: 60%;
+  height: auto;
+  left: 35%;
+  top: -250px;
+  background-color: #81CBC8;
+  padding: 2%;
+}
+.offertimg {
+  float: left;
+}
+.offertdescript {
+  height: 300px;
+}
+
 @media screen and (max-width: 480px) {
   nav {
     display: none;
